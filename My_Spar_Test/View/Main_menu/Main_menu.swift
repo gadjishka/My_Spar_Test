@@ -21,7 +21,7 @@ struct Main_menu: View {
                         .frame(height: 120)
                         .padding(10)
                         .shadow(radius: 2)
-                    Help_Row()
+                    Information_Stand_Row()
                     Category_Row(categoryName: "Рекомендуем")
                     Category_Row(categoryName: "Сладкое настроение")
                 }

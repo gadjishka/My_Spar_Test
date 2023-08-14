@@ -21,7 +21,7 @@ struct Promotions_Item: View {
                 
         }
             .frame(maxWidth: .infinity)
-            .frame(height: 200)
+            .frame(height: 150)
             .shadow(radius: 1)
 
         

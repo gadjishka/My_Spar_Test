@@ -7,15 +7,15 @@
 
 import SwiftUI
 
-struct Help_Item: View {
+struct Information_Stand_Item: View {
     let imageName: String
     var body: some View {
         Image(imageName)
     }
 }
 
-struct Help_Item_Previews: PreviewProvider {
+struct Information_Stand_Item_Previews: PreviewProvider {
     static var previews: some View {
-        Help_Item(imageName: "Coffee")
+        Information_Stand_Item(imageName: "Coffee")
     }
 }
